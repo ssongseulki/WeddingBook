@@ -1,0 +1,137 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none;}
+
+/*사이드 메뉴  */
+#articleCommunityMenu
+{
+	width: 15%;
+    float: left;
+    padding: 30px;
+    margin: 20px;
+    margin-left: 13%;
+    border-right: 1px solid lightgray;
+}
+#articleCommunityMenu h1
+{
+    font-size: 2em;
+    
+    color: rgb(247, 113, 159);
+}
+#articleCommunityMenu >ul
+{
+    margin-top: 50px;
+}
+#articleCommunityMenu li{margin-bottom: 15px}
+#articleCommunityMenu a
+{
+    font-size: 1.5em;
+    margin: 0px;
+    color: #37716b;
+}
+#articleCommunityMenu ul >li:hover a
+{
+    color: #0eac9a;
+}
+
+
+/* 게시판 리스트 */
+#whole
+{
+	margin-top: 60px;
+    width: 100%;
+    padding: 30px;
+    margin: 20px;
+    margin-left: 30%;
+}
+#list_table
+{
+	margin-top: 60px;
+    width: 50%;
+    padding: 30px;
+    margin: 20px; 
+    height: 300px;
+    border: 1px solid;
+	border-color: #b1b4b8;
+    box-shadow: 0px 2px 4px 0px #9f9f9f ;
+    overflow: auto;
+}
+table input 
+{
+	width:100%; height:30px; 
+	box-sizing:border-box; 
+	padding:10px;
+	border-style: none;
+}
+table textarea 
+{
+	width:100%; 
+	height:300px;
+	border-radius:3px; 
+	border:1px solid #ccc; 
+	box-sizing:border-box; 
+	padding:15px; resize:none;
+	background-color: white;
+	margin-top: 20px;
+	overflow: auto;
+}
+ #no , #nickName
+{
+	padding-left: 30px;
+}
+
+#wTime , #weddingDate
+{
+	float:right;
+	padding-left: 10px;
+}  
+#nickName
+{
+	font-size: 2em;
+	color: #3a8e98;
+	font-weight: bold;
+}
+input[type=submit]
+{
+	text-align: center; 
+	font-weight:bold;
+	background-color: #c0cf6d;
+	color: #78832c;
+	cursor: pointer;
+	border-radius: 3px;
+}
+input[type=submit]:hover {
+	background-color: #999999;
+	color: #50581d;
+}
+#writeBtn
+{
+	margin:30px;
+	float:right;
+	margin-right:20%;
+	color: #ff178b; 
+	font-size:1.2em;
+	font-weight: bold;
+}
+#writeBtn:hover {
+	color: #a8a8a8;
+}
+#btn
+{
+	text-align: right;
+	padding: 10px;
+}
+#btn>a
+{
+	padding: 10px;
+	color: #253230;
+}
+#btn>a:hover {
+	color: #adc2bf;
+}
+
+
+.material-icons
+{
+	color: #ff0080;
+	size: 2em;
+}

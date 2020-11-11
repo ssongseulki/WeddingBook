@@ -1,0 +1,84 @@
+body
+{
+	background-color: #f4f4f4;
+}
+*
+{
+	margin: 0; 
+	padding: 0;
+}
+a
+{
+	text-decoration: none;
+}
+ul,li
+{
+	list-style:none;
+}
+
+#GoodsMain, #GoodsModify
+{
+	width: 80%;
+	height:150%;
+	margin: 0 auto;
+	margin-top:50px;
+}
+#GoodsMain h1, #GoodsModify h1
+{
+	text-align: left;
+	padding-left: 100px;
+}
+#AdminWritrTable
+{
+	text-align:center;
+	margin: 0 auto;
+	padding: 30px;
+	
+}
+#AdminWritrTable tr
+{
+	text-align: center;
+}
+#AdminWritrTable td
+{
+	padding: 5px;
+	width: 100px;
+}
+table input , select
+{
+	width:600px; 
+	height:40x; 
+	box-sizing:border-box; 
+	padding:10px;
+	border-style: none;
+	background-color: #e6e7ec;
+}
+table textarea 
+{
+	width:100%; 
+	height:150px;
+	border-radius:3px; 
+	border:1px solid #ccc; 
+	box-sizing:border-box; 
+	padding:15px; resize:none;
+	background-color:  #e6e7ec;
+	margin-top: 20px;
+}
+.btn
+{
+	margin-left:50%;
+	margin-top:20px;
+	width: 70px;
+	height:40px;
+	text-align: center; 
+	font-weight:bold;
+	background-color: #c6005e;
+	color: #ffdfef;
+	cursor: pointer;
+	border-radius: 3px;
+	border-style: none;
+}
+.btn:hover {
+	background-color: #d6d6d6;
+	color: #a80054
+}

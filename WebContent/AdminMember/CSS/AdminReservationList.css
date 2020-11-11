@@ -1,0 +1,77 @@
+@font-face 
+{ 
+	font-family: 'Cafe24Oneprettynight'; 
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff'); 
+	font-weight: normal; 
+	font-style: normal; 
+}
+body
+{
+	font-family: 'Cafe24Oneprettynight', 'sans-serif';	
+	background-color: #f4f4f4;
+}
+*
+{
+	margin: 0; 
+	padding: 0;
+}
+a
+{
+	text-decoration: none;
+}
+ul,li
+{
+	list-style:none;
+}
+
+#reservationList
+{
+	width: 80%;
+    padding: 30px;
+    margin: 0 auto;
+}
+caption {
+	font-size: 2em;
+	float: left;
+	padding: 20px 0;
+}
+td
+{
+	border-bottom: 1px solid black;
+	border-bottom-color:#b1b4b8;
+	color: #2f394f;
+	padding: 10px;
+	text-align: center;
+}
+td>a
+{
+	color: #11151e;
+	font-weight: bold;
+}
+tr:nth-of-type(1) td
+{
+	background-color : #98acc0;
+	color: #1d2630;
+	text-align: center;
+}
+input[type=submit] 
+{
+	width: 50px; 
+	height: 20px;
+	border: none;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Cafe24Oneprettynight', 'sans-serif';	
+}
+input[type=submit]:hover {
+	background-color: #d2d2d2;
+    color: #4f4f4f;
+}
+#listNo
+{
+	width: 15%;
+}
+
+

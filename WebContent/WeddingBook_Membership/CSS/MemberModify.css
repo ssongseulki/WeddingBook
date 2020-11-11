@@ -1,0 +1,107 @@
+@font-face { font-family: 'Cafe24Oneprettynight'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff'); font-weight: normal; font-style: normal; }
+body
+{
+	font-family: 'Cafe24Oneprettynight', 'sans-serif';	
+}
+*{margin: 0; padding: 0;}
+
+/*사이드 메뉴  */
+#articleLoginMenu
+{
+	width: 15%;
+    float: left;
+    padding: 30px;
+    margin: 20px;
+    margin-left: 13%;
+    border-right: 1px solid lightgray;
+}
+#articleLoginMenu h1
+{
+    font-size: 2em;
+    color: #0eac9a;
+}
+#articleLoginMenu >ul
+{
+    margin-top: 50px;
+}
+#articleLoginMenu li{margin-bottom: 15px}
+#articleLoginMenu a
+{
+    font-size: 1.5em;
+    margin: 0px;
+    color: #37716b;
+}
+#articleLoginMenu ul >li:hover a
+{
+    color: #0eac9a;
+}
+
+/* 개인정보수정 */
+#modifyTable
+{
+	width: 45%;
+    float: left;
+    padding: 20px;
+    margin: 20px;
+    height: 450px;
+    
+}
+
+#modifyTable td
+{
+	color:#373737;
+    font-size: 1em;
+    padding: 10px;
+    border-bottom: 1px solid #bbccc3;
+    text-align: center;
+}
+#nickName ,#password , #passwordChk, #email, #name, #id
+{
+	width:300px; height:30px; 
+	box-sizing:border-box; 
+	padding:10px;
+	border-style: none;
+}
+
+.phone
+{
+	width:120px;
+	border-style: none;
+	color: gray;
+}
+#local
+{
+	width:200px; height: 30px;
+	border-style: none;	
+	color: gray;
+}
+#weddingDate
+{
+	width:200px; height: 30px;
+	border-style: none;
+	color: gray;
+}
+
+input[type=submit]
+{
+	float:left;
+	margin-left:53%;
+	width: 130px; height: 30px;
+	border: none;
+    background-color: rgba(196, 99, 125, 0.88);
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Cafe24Oneprettynight', 'sans-serif';	
+}
+input[type=submit]:hover
+{
+    background-color: #fac8d2; 
+    color:#964a62; 
+}
+
+input[type=radio]
+{
+	width:80px;
+}

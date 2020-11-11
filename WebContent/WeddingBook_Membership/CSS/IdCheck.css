@@ -1,0 +1,40 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none;}
+
+body
+{
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+input[type=submit]
+{
+	width:70px;
+	height:20px;
+	border: none;
+	background-color: gray;
+	color: white;
+	border-radius: 2px;
+	cursor: pointer;
+}
+input[type=submit]:hover
+{
+	background-color: gray;
+	color: #999999;
+}
+h3
+{
+	padding: 10px 0;
+}
+a
+{
+	padding:10px;
+	text-align: center;
+	color: #408080;
+}
+p
+{
+	text-decoration: none;
+	color: #ff0080;
+	padding: 10px;
+}

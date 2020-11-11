@@ -1,0 +1,28 @@
+*
+{
+	margin: 0;
+}
+html, body
+{
+	height: 100%;
+}
+.wrapper
+{
+ 	min-height: 100%;
+/* 	margin: 0 auto -155px;  */
+}
+#footer, .push
+{
+	height: 50px;
+}
+
+#footer
+{
+	font-family: 'Noto Sans KR', sans-serif;
+    width: 100%; 
+    text-align: center;
+    padding: 40px 0;
+    background-image: linear-gradient(#e0e0e0, #ffffff, #e0e0e0);
+    color: rgba(108, 132, 119, 0.79);   
+    margin-top: 50px;
+}

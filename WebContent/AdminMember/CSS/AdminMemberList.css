@@ -1,0 +1,92 @@
+
+body
+{
+	background-color: #f4f4f4;
+}
+
+form {
+	display: flex;
+	justify_contents: space-between;
+}
+
+*
+{
+	margin: 0; 
+	padding: 0;
+}
+a
+{
+	text-decoration: none;
+}
+ul,li
+{
+	list-style:none;
+}
+
+#memberList
+{
+	width: 80%;
+    padding: 30px;
+    margin: 0 auto;
+}
+caption {
+	font-size: 2em;
+	width: 120px;
+	float: left;
+	padding: 20px 0;
+}
+td
+{
+	border-bottom: 1px solid black;
+	border-bottom-color:#b1b4b8;
+	color: #2f394f;
+	padding: 10px;
+	text-align: center;
+}
+td>a
+{
+	color: #11151e;
+	font-weight: bold;
+}
+tr:nth-of-type(1) td
+{
+	background-color : #406243;
+	color: #f4f9f5;
+	text-align: center;
+}
+input[type=submit] 
+{
+	width: 80px; 
+	height: 30px;
+	border: none;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Cafe24Oneprettynight', 'sans-serif';	
+    margin-left: 5%; 
+}
+input[type=submit]:hover {
+	background-color: #d2d2d2;
+    color: #4f4f4f;
+}
+#listChk
+{
+	width: 5%;
+}
+select {
+	width:80px; 
+	border-style: none;
+	color: gray;
+	font-family: 'Cafe24Oneprettynight', 'sans-serif';	
+	font-size: 1em;
+}
+
+#search
+{
+	width: 30%;
+    padding: 10px;
+    margin-top:30px;
+    margin-left: 13%;
+}
+

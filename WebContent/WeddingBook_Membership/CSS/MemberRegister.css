@@ -1,0 +1,134 @@
+@font-face { font-family: 'Cafe24Oneprettynight'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff'); font-weight: normal; font-style: normal; }
+body
+{
+	font-family: 'Cafe24Oneprettynight', 'sans-serif';	
+}
+*{margin: 0; padding: 0;}
+a{text-decoration: none;}
+
+/*사이드 메뉴  */
+#article_login_menu
+{
+	width: 15%;
+    float: left;
+    padding: 30px;
+    margin: 20px;
+    margin-left: 13%;
+    border-right: 1px solid lightgray;
+}
+#article_login_menu h1
+{
+    font-size: 2em;
+    color: #0eac9a;
+}
+#article_login_menu >ul
+{
+    margin-top: 50px;
+}
+#article_login_menu li{margin-bottom: 15px}
+#article_login_menu a
+{
+    font-size: 1.7em;
+    margin: 1px;
+    color: #37716b;
+}
+#article_login_menu ul >li:hover a
+{
+    color: #0eac9a;
+}
+
+/* 회원가입 */
+#registerTable
+{
+    width: 50%;
+    padding: 30px;
+    margin: 20px;
+    height: 450px;
+    	
+}
+
+#registerTable td
+{
+	color:#1f1f1f;
+    font-size: 1em;
+    padding: 10px;
+    border-bottom: 1px solid #bbccc3;
+    text-align: center;
+}
+#nickNames ,#password , #passwordChk, #email, #name, #id
+{
+	width:300px; height:30px; 
+	box-sizing:border-box; 
+	padding:10px;
+	border-style: none;
+}
+
+.phone
+{
+	width:120px; 
+	border-style: none;
+	color: gray;
+}
+#local
+{
+	width:200px; height: 30px;
+	border-style: none;	
+	color: gray;
+}
+#weddingDate
+{
+	width:200px; height: 30px;
+	border-style: none;
+	color: gray;
+}
+
+input[type=submit]
+{
+	float:left;
+	margin-left:50%;
+	width: 130px; height: 30px;
+	border: none;
+    background-color: rgba(196, 99, 125, 0.88);
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Cafe24Oneprettynight', 'sans-serif';	
+}
+input[type=reset]
+{
+	margin-left:10px;
+	width: 130px; 
+	height: 30px;
+	border: none;
+    background-color: rgba(196, 99, 125, 0.88);
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Cafe24Oneprettynight', 'sans-serif';	
+}
+input[type=submit]:hover
+{
+    background-color: #fac8d2; color:#964a62; 
+}
+
+input[type=radio]
+{
+	width:80px;
+}
+
+input[type=button]
+{
+	width:60px;
+	height:25px;
+	border: none;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+ input[type=button]:hover {
+	background-color: gray;
+    color: #b4b4b4;
+}

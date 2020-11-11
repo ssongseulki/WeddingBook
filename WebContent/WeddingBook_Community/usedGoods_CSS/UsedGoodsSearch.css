@@ -1,0 +1,146 @@
+@font-face { 
+	font-family: 'Cafe24Oneprettynight'; 
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff'); 
+	font-weight: normal; 
+	font-style: normal; 
+}
+body
+{
+	font-family: 'Cafe24Oneprettynight', 'sans-serif';	
+}
+*
+{
+	margin: 0; 
+	padding: 0;
+}
+a
+{
+	text-decoration: none;
+}
+
+/*사이드 메뉴  */
+#articleCommunityMenu
+{
+	width: 15%;
+    float: left;
+    padding: 30px;
+    margin: 20px;
+    margin-left: 13%;
+    border-right: 1px solid lightgray;
+}
+#articleCommunityMenu h1
+{
+    font-size: 2em;
+    
+    color: rgb(247, 113, 159);
+}
+#articleCommunityMenu >ul
+{
+    margin-top: 50px;
+}
+#articleCommunityMenu li
+{
+	margin-bottom: 15px;
+}
+#articleCommunityMenu a
+{
+    font-size: 1.5em;
+    margin: 0px;
+    color: #37716b;
+}
+#articleCommunityMenu ul >li:hover a
+{
+    color: #0eac9a;
+}
+
+
+/* 중고거래 게시판 */
+#listTable
+{
+    width: 50%;
+    padding: 30px;
+    margin: 20px;
+    height: 450px;
+}
+td
+{
+	border-bottom: 1px solid black;
+	border-bottom-color:#b1b4b8;
+	color: #575757;
+	padding: 10px;
+	text-align: center;
+}
+tr:nth-of-type(1) td
+{
+	background-color : #c5bfd5;
+	color: #161a09;
+	text-align: center;
+}
+.listSize1
+{
+	width: 15%;
+}
+.listSize2
+{
+	width: 20%;
+	text-align: left;
+}
+.listSize3
+{
+	width: 50%;
+	text-align: left;
+}
+a
+{
+	color: #1e1e1e;
+}
+
+a:hover {
+	color: #a8a8a8;
+}
+
+#writeBtn
+{
+	float:right;
+	margin-right:20%;
+	color: #ff178b; 
+	font-weight: bold;
+}
+#writeBtn:hover {
+	color: #a8a8a8;
+}
+
+#search
+{
+	width: 50%;
+    padding: 10px;
+    margin-top:20px;
+    margin-left: 35%;
+}
+select {
+	width:80px; 
+	border-style: none;
+	color: gray;
+	font-family: 'Cafe24Oneprettynight', 'sans-serif';	
+	font-size: 1em;
+}
+input[type=submit] 
+{
+	width: 50px; height: 20px;
+	border: none;
+    background-color: gray;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Cafe24Oneprettynight', 'sans-serif';	
+}
+input[type=submit]:hover {
+	background-color: #d2d2d2;
+    color: #4f4f4f;
+}
+input[type=text]
+{
+	width: 200px;
+} 
+

@@ -1,0 +1,154 @@
+@font-face 
+{ 
+	font-family: 'Cafe24Oneprettynight'; 
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff'); 
+	font-weight: normal; 
+	font-style: normal; 
+}
+body
+{
+	font-family: 'Cafe24Oneprettynight', 'sans-serif';	
+	background-color: #f4f4f4;
+}
+*
+{
+	margin: 0; 
+	padding: 0;
+}
+a
+{
+	text-decoration: none;
+}
+ul,li
+{
+	list-style:none;
+}
+
+#SectionGoodsView, table
+{
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* goodsView 내용 */
+#goodsView
+{
+	width: 65%;
+	margin: 0 auto;
+}
+form textarea 
+{
+	width:100%; 
+	height:300px;
+	border-radius:3px; 
+	border:1px solid #ccc; 
+	box-sizing:border-box; 
+	padding:15px; resize:none;
+	color: #141d1c;
+	font-size: 1.1em;
+}
+
+.swiper-container {
+/*  	width:700px;
+	height:650px;  */
+ 	width: 100%;
+	height: 100%;
+	max-height:700px;
+	max-width:650px; 
+	border:5px solid silver;
+	border-radius:7px;
+	box-shadow:0 0 20px #ccc inset;
+	align-items:center;
+	margin: 20px;
+}
+.swiper-slide {
+	text-align:center;
+	display:flex; /* 내용을 중앙정렬 하기위해 flex 사용 */
+	align-items:center; /* 위아래 기준 중앙정렬 */
+	justify-content:center; /* 좌우 기준 중앙정렬 */
+}
+.swiper-slide img {
+	box-shadow:0 0 5px #555;
+	width: 500px;
+	height: 500px;
+	align-items:center;
+	margin: 30px;
+}
+#goodsView h4
+{
+	font-size: 1.2em;
+	padding-left: 22px;
+	color: #87c2c2;
+	
+}
+#goodsView h1
+{
+	color: #234747;
+	font-weight: bold;
+	font-size: 2em;
+	padding: 20px;
+}
+#goodsView h3
+{
+	margin-top: 30px;
+}
+#goodsView caption {
+	width:120%;
+	font-size: 1.1em;
+	font-weight:bold;
+	margin-top: 30px;
+	float: left;
+}
+
+.BSinput
+{
+	width:100%; 
+	height:30px; 
+	box-sizing:border-box; 
+	padding:10px;
+	border-style: none;
+	color: #222f2d;
+}
+
+.BSinfo
+{
+	width: 20%;
+	float: none;
+}
+
+#btn
+{
+	width: 70px;
+	height:30px;
+	text-align: center; 
+	font-weight:bold;
+	color: #e80074;
+	cursor: pointer;
+	border-radius: 3px;
+	border-style: none;
+}
+#btn:hover {
+	color: #ff84c1;
+}
+a
+{
+	width: 80px;
+	height:30px;
+	text-align: center; 
+	font-weight:bold;
+	font-size:0.9em;
+	color: #e80074;
+	cursor: pointer;
+	border-radius: 3px;
+	border-style: none;
+	padding: 0 20px;
+}
+a:hover {
+	color: #ff84c1;
+}
+#btnAll
+{
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 50px;
+}

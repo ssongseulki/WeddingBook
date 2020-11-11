@@ -1,0 +1,124 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none;}
+#div_whole {
+	width: 100%;
+	height: 100%;
+}
+
+/*사이드 메뉴  */
+#article_login_menu
+{
+	width: 15%;
+    float: left;
+    padding: 30px;
+    margin: 20px;
+    margin-left: 13%;
+    border-right: 1px solid lightgray;
+    
+}
+#article_login_menu h1
+{
+    font-size: 2em;
+    color: #0eac9a;
+}
+#article_login_menu >ul
+{
+    margin-top: 50px;
+}
+#article_login_menu li{margin-bottom: 15px}
+#article_login_menu a
+{
+    font-size: 1.5em;
+    margin: 0px;
+    color: #37716b;
+}
+#article_login_menu ul >li:hover a
+{
+    color: #0eac9a;
+}
+
+/* 로그인  */
+#article_login
+{
+	/*width: 30%;*/
+    float: left;
+    padding: 30px;
+    margin: 20px;
+    height: 150px;
+    margin-left: 130px;
+}
+#article_login >table
+{
+    overflow: hidden;
+    position: absolute;
+    left: 30%;
+}
+
+#article_login td
+{
+	color:gray;
+    font-size: 1.2em;
+    padding: 10px;
+    border-bottom: 1px solid #bbccc3;
+    text-align: center;
+}
+input[type=text] ,input[type=password]
+{
+	width:200px; height:30px; 
+	box-sizing:border-box; 
+	padding:10px;
+	border-style: none;
+}
+
+input[type=submit]
+{
+	width: 110px;
+	height: 36px;
+	border-style: none;
+	margin: 10px;
+	position: relative;
+	left: 6%;
+	top:2px;
+	text-align: center; font-weight:bold;
+	background-color: rgba(196, 99, 125, 0.88);
+	color: white;
+	cursor: pointer;
+	border-radius: 3px;
+	font-family: 'Cafe24Oneprettynight', 'sans-serif';
+	font-size: 1.1em;	
+}
+input[type=submit]:hover
+{
+    background-color: #fac8d2; color:#964a62; 
+}
+#btn>a
+{
+	padding: 8px 25px;
+	width: 80px;
+	height: 33px;
+	border-style: none;
+	margin: 10px;
+	position: relative;
+	left: 6%;
+	top:1px;
+	text-align: center; font-weight:bold;
+	background-color: rgba(196, 99, 125, 0.88);
+	color: white;
+	cursor: pointer;
+	border-radius: 3px;
+}
+#btn>a:hover
+{
+	 background-color: #fac8d2; color:#964a62; 
+}
+
+#loginOK
+{
+	overflow: hidden;
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    top:300px;
+    left: 800px;
+	
+}

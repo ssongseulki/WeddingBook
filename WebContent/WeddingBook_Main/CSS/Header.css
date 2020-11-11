@@ -1,0 +1,97 @@
+*{margin: 0; padding: 0;}
+li{list-style-type: none;}
+a{text-decoration: none;}
+body
+{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+#mainTitle
+{
+    background-color:#e0e0e0;
+    background-image: linear-gradient(#e0e0e0, #ffffff, #ffffff);
+    color: rgba(108, 132, 119, 0.79); 
+}
+#header
+{
+	margin: 0 auto;
+	height: 130px;
+	position: relative;
+	overflow: hidden ;
+}
+#header #nav_gnb
+{
+ 	position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+#header #nav_lnb
+{
+/* 	position: absolute;
+    bottom: 10px; */
+    
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+}
+#nav_gnb >ul 
+{
+	overflow: hidden;
+}
+#nav_gnb >ul >li 
+{
+	float: left;
+}
+#nav_gnb >ul >li a
+{
+    padding: 5px 16px;
+    border-right: 1px solid #176a3d;
+    color: #176a3d;
+    right: 0 0;
+}
+#nav_gnb >ul >li:hover a 
+{
+	color: #969f96;
+}
+
+#nav_lnb >ul 
+{
+	overflow: hidden; 
+}
+#nav_lnb >ul >li 
+{
+	float: left; 
+	padding: 30px 100px;
+}
+#nav_lnb >ul >li a
+{
+    font-size: 120%;
+    color: #176a3d;
+}
+#nav_lnb >ul >li:nth-of-type(5) a
+{
+    color: rgba(209, 113, 161, 0.96); 
+    font-weight: bold; 
+}
+#nav_lnb >ul >li:nth-of-type(6) a
+{
+    color: rgba(209, 113, 161, 0.96); 
+    font-weight: bold; 
+}
+#nav_lnb >ul >li:hover a
+{
+	color: #969f96;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+

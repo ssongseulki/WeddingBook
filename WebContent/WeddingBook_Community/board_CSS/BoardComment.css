@@ -1,0 +1,158 @@
+/*
+@font-face { font-family: 'Cafe24Oneprettynight'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff'); font-weight: normal; font-style: normal; }
+body
+{
+	font-family: 'Cafe24Oneprettynight', 'sans-serif';	
+}
+*/
+*{margin: 0; padding: 0;}
+a{text-decoration: none;}
+
+#whole
+{
+	margin-top: 60px;
+    width: 87%;
+    align: center;
+    padding: 30px;
+    margin: 20px; 
+    height: 820px;
+    border: 1px solid;
+	border-color: #b1b4b8;
+    box-shadow: 0px 2px 4px 0px #9f9f9f ;
+}
+#listTable
+{
+	width: 100%;
+	margin: 0 auto;
+}
+
+table input
+{
+	width:100%; height:30px; 
+	box-sizing:border-box; 
+	padding:10px;
+	border-style: none;
+}
+#listTable textarea
+{
+	width:100%; 
+	height:350px;
+	border-radius:3px; 
+	border:1px solid #ccc; 
+	box-sizing:border-box; 
+	padding:15px; resize:none;
+	background-color: white;
+	margin-top: 30px;
+}
+
+/* 댓글 등록  */
+ #no , #nickName
+{
+	padding-left: 30px;
+}
+
+#wTime , #weddingDate
+{
+	float:right;
+	padding-right: 30px;
+}  
+#nickName
+{
+	font-size: 2em;
+	color: #3a8e98;
+	font-weight: bold;
+}
+
+.commentWhole
+{
+	width: 100%;
+	height: 350px;
+	border: 1px solid #ccc;
+	overflow: auto;
+}
+ #commentFix  
+{
+	width: 100%;
+	margin: 0 auto;
+	bottom: 80px;
+	text-align: center;
+	float: left;
+	margin-bottom: 20px;
+}  
+
+ .commentCnt
+{
+	position: absolute;
+	padding: 10px;
+}
+#commentName
+{
+	width:13%; 
+	height:30px;
+	text-align:center; 
+	font-weight:bold;
+	box-sizing:border-box; 
+	border-style: none;
+	margin-top: 30px;
+}
+#commentText
+{
+	width:60%; 
+	height:25px;
+	border: none;
+	border-bottom:1px solid #ccc; 
+	box-sizing:border-box; 
+	resize:none;
+	background-color: white;
+	margin-top: 50px;
+} 
+.commentSubmit
+{
+	width: 10%;
+	height: 20px;
+	border: none;
+	background-color: #686868;
+	color: #e5e5e5;
+	cursor: pointer;
+	border-radius:4px; 
+}
+.commentSubmit:hover {
+	background-color: #e5e5e5;
+	color: #686868;
+}
+#listTable a
+{
+	font-weight: bold;
+	padding: 20px;
+	color: #d20069;
+}
+
+
+
+/* 등록된 댓글보기 */
+.commentTable
+{
+	border:none;
+	width: 90%;
+	margin: 0 auto;
+}
+.commentTable input[type=submit]
+{
+	width: 30px;
+	height: 20px;
+	font-size: 0.5em;
+	text-align: center;
+	cursor: pointer;
+	background-color: #aeaeae;
+	color: #e5e5e5;
+}
+.commentTable input[type=submit]:hover {
+	background-color: #e5e5e5;
+	color: #686868;	
+}
+.commentWTime
+{
+	width: 15%;
+	font-size: 70%;
+}
+
