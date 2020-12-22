@@ -17,7 +17,7 @@
 >> LANGUAGE FRAMEWORK : java, jstl, jsp
 
 ### 2. ER_Diagram
-<img src="https://user-images.githubusercontent.com/68680087/102859639-9eba4c00-446f-11eb-9dc3-6c8f6bd9620a.jpg" width = "800" height = "500">
+<img src="https://user-images.githubusercontent.com/68680087/102859639-9eba4c00-446f-11eb-9dc3-6c8f6bd9620a.jpg" width = "1000" height = "500">
 
 
 
