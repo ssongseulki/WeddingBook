@@ -5,10 +5,10 @@
 ## Discription
 ### 1. 개발환경
 > 공통     
->> 운영체제 : Window10, Mac Os
->> 소스코드 작성 도구 : Eclipse EE
->> 웹서버 : Apache Tomcat
->> 데이터베이스 : MySQL Workbench      
+>> 운영체제 : Window10, Mac Os          
+>> 소스코드 작성 도구 : Eclipse EE            
+>> 웹서버 : Apache Tomcat           
+>> 데이터베이스 : MySQL Workbench                  
 
 >FRONT-END
 >> LANGUAGE FRAMEWORK : Html5, Css3, Javascript, JQuery
@@ -21,19 +21,19 @@
 
 ### 3. 주요 기능
 > Create
-- 회원가입(MemberRegister.jsp) , 상품등록(AdminGoodsWrite.jsp) , 게시판 글쓰기 (BoardWrite.jsp / UsedGoodsWrite.jsp) , 예약하기 (GoodsReservation.jsp)         
+>> 회원가입(MemberRegister.jsp) , 상품등록(AdminGoodsWrite.jsp) , 게시판 글쓰기 (BoardWrite.jsp / UsedGoodsWrite.jsp) , 예약하기 (GoodsReservation.jsp)         
 
 > Read
-- 상품보기 ( GoodsList.jsp / GoodsView.jsp) , 게시판 리스트 (BoardList.jsp / UsedGoodsList.jsp / UsedGoodsView.jsp / UsedGoodsReply.jsp )
+>> 상품보기 ( GoodsList.jsp / GoodsView.jsp) , 게시판 리스트 (BoardList.jsp / UsedGoodsList.jsp / UsedGoodsView.jsp / UsedGoodsReply.jsp )
 
 > Update
-- 회원정보수정 ( MemberModify.jsp) , 상품수정 (AdminGoodsModify.jsp) , 게시글 수정 (BoardModify.jsp / UsedGoodsModify.jsp)
+>> 회원정보수정 ( MemberModify.jsp) , 상품수정 (AdminGoodsModify.jsp) , 게시글 수정 (BoardModify.jsp / UsedGoodsModify.jsp)
 
 > Delete
-- 게시글 , 댓글 삭제, 상품 업체 삭제, 회원탈퇴         
+>>게시글 , 댓글 삭제, 상품 업체 삭제, 회원탈퇴         
 
 
-## 자세한 내용은 소스코드와 업로드 된 PowerPoint PDF 파일에서 확인하여 주시기 바랍니다.
+### 자세한 내용은 소스코드와 업로드 된 PowerPoint PDF 파일에서 확인하여 주시기 바랍니다.
 
 
 
