@@ -11,10 +11,10 @@
 >> 데이터베이스 : MySQL Workbench                  
 
 >FRONT-END
->> LANGUAGE FRAMEWORK : Html5, Css3, Javascript, JQuery
+>> Language Framework : Html5, Css3, Javascript, JQuery
 
 >BACK-END 
->> LANGUAGE FRAMEWORK : java, jstl, jsp
+>> Language Framework : Java, Jstl, Jsp
 
 ### 2. ER_Diagram
 <img src="https://user-images.githubusercontent.com/68680087/102859639-9eba4c00-446f-11eb-9dc3-6c8f6bd9620a.jpg" width = "1000" height = "500">
