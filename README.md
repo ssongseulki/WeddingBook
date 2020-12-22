@@ -1,6 +1,6 @@
 # WeddingBook
 > 결혼을 준비할 때 빼놓을 수 없는 드레스, 스튜디오, 메이크업을 한 곳에서 원하는 업체를 선택해 패키지로 진행 할 수 있는 예약 사이트입니다.
->M(model) V(view) C(Controller)2 패턴을 사용하여 코딩하였습니다.    
+>MVC2 (Model-View-Controller) 패턴을 사용하여 코딩하였습니다.    
         
 ## Discription
 1. 개발환경
