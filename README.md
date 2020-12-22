@@ -18,7 +18,7 @@
 
 ### 2. ER_Diagram
 <img src="https://user-images.githubusercontent.com/68680087/102858971-7e3dc200-446e-11eb-869a-719637b5b2a9.png" width = "700" height = "500">
-<img src = "https://user-images.githubusercontent.com/68680087/102859339-1471e800-446f-11eb-8ac5-7ae0d08af764.jpg" width = "300" height = 500">
+<img src = "https://user-images.githubusercontent.com/68680087/102859339-1471e800-446f-11eb-8ac5-7ae0d08af764.jpg" width = "200" height = 300">
 
 
 
