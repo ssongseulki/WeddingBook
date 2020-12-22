@@ -19,6 +19,22 @@
 ### 2. ER_Diagram
 <img src="https://user-images.githubusercontent.com/68680087/102859639-9eba4c00-446f-11eb-9dc3-6c8f6bd9620a.jpg" width = "1000" height = "500">
 
+### 3. 주요 기능
+> Create
+- 회원가입(MemberRegister.jsp) , 상품등록(AdminGoodsWrite.jsp) , 게시판 글쓰기 (BoardWrite.jsp / UsedGoodsWrite.jsp) , 예약하기 (GoodsReservation.jsp)         
+
+> Read
+- 상품보기 ( GoodsList.jsp / GoodsView.jsp) , 게시판 리스트 (BoardList.jsp / UsedGoodsList.jsp / UsedGoodsView.jsp / UsedGoodsReply.jsp )
+
+> Update
+- 회원정보수정 ( MemberModify.jsp) , 상품수정 (AdminGoodsModify.jsp) , 게시글 수정 (BoardModify.jsp / UsedGoodsModify.jsp)
+
+> Delete
+- 게시글 , 댓글 삭제, 상품 업체 삭제, 회원탈퇴         
+
+
+## 자세한 내용은 소스코드와 업로드 된 PowerPoint PDF 파일에서 확인하여 주시기 바랍니다.
+
 
 
 
